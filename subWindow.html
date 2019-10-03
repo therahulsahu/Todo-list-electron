@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .spaces{-webkit-app-region: drag;}
+        .btn .btn-dark{-webkit-app-region: no-drag;}
+        #textInput{-webkit-app-region: no-drag;}
+    </style>
+</head>
+<body>
+    <div class="spaces" style="padding-top: 30px"></div>
+    <div class="container">
+            <div id="main">
+                <h2 class="title">Add Task</h2>
+                <form id="addForm" class="form mb-3">
+                    <input type="text" class="form-control mr-2" id="textInput" autofocus>
+                    <br/>
+                    <input type="submit" class="btn btn-dark" value="Submit" id="submitBtn">
+                    <input type="submit" class="btn btn-dark" value="Close" id="closeBtn">
+                </form>
+            </div>
+    </div>
+    <script src="subWindow.js"></script>
+</body>
+</html>

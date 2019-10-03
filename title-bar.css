@@ -1,0 +1,15 @@
+.bar{
+    background-color: #352c2d;
+    padding: 1px;
+    -webkit-app-region: drag;
+}
+.nav-btn{
+    border: none;
+    background-color: #352c2d;
+    color: white;
+    -webkit-app-region: no-drag;
+}
+
+.completed-tasks{
+    text-decoration: line-through;
+}
